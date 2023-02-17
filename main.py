@@ -4,7 +4,7 @@ from Event import register_event, dispatch_event
 
 
 def print_event():
-    print("Event!")
+    print("Event was triggered!")
 
 def register_events(events: dict):
     register_event(events, "test", print_event)
