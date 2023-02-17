@@ -1,6 +1,6 @@
 from  multiprocessing import Process, Manager
 import time
-from Event import register_event, dispatch_event
+from Events import register_event, dispatch_event
 
 
 def print_event():
