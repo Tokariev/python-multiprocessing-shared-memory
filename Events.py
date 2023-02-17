@@ -13,7 +13,6 @@ def register_event(events: dict, event: str, func: callable):
 def dispatch_event(events: dict, event: str):
     handlers = events.get(event)
 
-    print("Handlers:", handlers)
     print('Dispatch:', events)
 
     if handlers is None:

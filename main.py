@@ -7,10 +7,10 @@ def print_event():
     print("Event was triggered!")
 
 def register_events(events: dict):
-    register_event(events, "test", print_event)
+    register_event(events, "print", print_event)
 
 def dispatch_events(events: dict):
-    dispatch_event(events, "test")
+    dispatch_event(events, "print")
 
 
 if __name__ == "__main__":
